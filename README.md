@@ -25,6 +25,7 @@ Project structure and few project insights::
 *  I have added several **assertions** to check whether the test script is not giving any false positive result and executing smoothly.
 *  I have used Hooks like **before** and **after**.
 *  Inside the configuration file **nightwatch.conf.js** I have mentioned the path of page_objects.
+*  Last point I want to highlight is that the **assertion are generic in nature** , if you add more items then only the changes need to be done in tests (data layer) folder.No change is required in page _object section.
 
 
 
