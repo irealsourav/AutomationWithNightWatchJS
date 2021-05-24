@@ -2,7 +2,7 @@
 Prerequisites to run the project ::
 ======================================
 * NodeJS and NPM should be installed and version should be v15 and 7.14.0 respectively.
-* install nightwatch globally :: npm install nightwatch --save -g so that code caould be run from anywhere in the machine.
+* install nightwatch globally :: npm install nightwatch --save -g so that this code could be run from anywhere in the machine.
 * After installation check the version as well to make sure it installed correctly.
 
 How to run ::
@@ -24,7 +24,7 @@ Project structure and few project insights::
 *  I have created **dynamic waits** wherever required for better synchronization.
 *  I have added several **assertions** to check whether the test script is not giving any false positive result and executing smoothly.
 *  I have used Hooks like **before** and **after**.
-*  
+*  Inside the configuration file **nightwatch.conf.js** I have mentioned the path of page_objects.
 
 
 
